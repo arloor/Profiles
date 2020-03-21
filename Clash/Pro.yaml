@@ -163,15 +163,15 @@ Proxy:
 #   # skip-cert-verify: true
 #   # udp: true
 
-# http
-# - name: "http"
-#   type: http
-#   server: server
-#   port: 443
-#   # username: username
-#   # password: password
-#   # tls: true # https
-#   # skip-cert-verify: true
+http
+- name: "http"
+  type: http
+  server: sg.someme.me
+  port: 443
+  username: arloor
+  password: httpforarloor
+  tls: true # https
+  skip-cert-verify: true
 
 # snell
 # - name: "snell"
